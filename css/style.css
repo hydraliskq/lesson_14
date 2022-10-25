@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+	font-family: Roboto;
+}
+
+.wrapper {
+	background: gray;
+	overflow: hidden;
+	min-width: 100%;
+	position: relative;
+}
+
+.page {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 30px;
+	background: blueviolet;
+}
+
+.page__title {
+	font-size: 60px;
+	margin-bottom: 100px;
+	font-weight: 900;
+}
+
+.page__text {
+	font-size: 46px;
+	margin-bottom: 15px;
+}
+
+.flex {
+	display: flex;
+}
+
+.block {
+	border: 5px solid #77608d;
+	background: rgb(195, 195, 2);
+	margin-bottom: 80px;
+}
+
+.block__item {
+	font-size: 40px;
+	font-weight: 600;
+	border: 3px solid rgb(230, 77, 77);
+	background: rgb(112, 207, 112);
+}
+
+.inline-flex {
+	display: inline-flex;
+	margin-bottom: 200px;
+}
+
+.wrap {
+	display: flex;
+	width: 70px;
+	flex-wrap: wrap;
+}
+
+.reverse {
+	display: flex;
+	width: 70px;
+	flex-wrap: wrap-reverse;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.row-reverse {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.column-reverse {
+	display: flex;
+	flex-direction: column-reverse;
+	text-align: center;
+}
+
+.flex-start {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.space-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+.space-evenly {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cards {
+	
+}
+
+.cards__items {
+	flex-wrap: wrap;
+	display: flex;
+	gap: 25px;
+}
+
+.cards__item {
+	width: 390px;
+	height: 438px;
+	background: white;	
+}
+
+.cards__item img {
+	margin-bottom: 24px;
+}
+
+.profession {
+	width: 100px;
+	height: 23px;
+	border-radius: 4px;
+	padding: 1px, 8px, 1px, 8px;
+	background: #5A87FC;
+	color: white;
+	margin-bottom: 24px;
+	margin-left: 24px;
+	text-align: center;
+}
+.job-title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 24px;
+	margin-bottom: 20px;
+}
+.price {
+	font-weight: 700;
+	font-size: 18px;
+	color: #FF4242;
+	margin-left: 24px;
+}
+
+.price span {
+	color: #787A80;
+}
